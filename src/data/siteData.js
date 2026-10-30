@@ -8,7 +8,7 @@ export const SITE = {
   domain: "https://www.velshaaerospace.com",
   email: "info@velshaaerospace.com", // TODO: confirm with client
   youtube: "https://www.youtube.com/@velshaairspace", // TODO: real channel URL
-  founderName: "Founder Name", // TODO: real name
+  founderName: "Sevil Velsha", // TODO: real name
   // Empty href = icon/link is hidden automatically
   socials: [
     { label: "YouTube", href: "https://www.youtube.com/@velshaairspace" },
@@ -22,7 +22,7 @@ export const IMG = {
   hero: "/images/hero.jpg",
   academy: "/images/academy.jpg",
   aircraft: "/images/aircraft.jpg",
-  founder: "/images/founder.jpg",
+  founder: "/images/founder.jpeg",
   header: "/images/page-header.jpg",
 };
 

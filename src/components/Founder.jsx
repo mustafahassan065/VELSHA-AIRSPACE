@@ -7,12 +7,11 @@ export default function Founder() {
       <div className="container founder">
         <Reveal>
           <div className="founder__photo">
-            <span className="founder__mono" aria-hidden="true">VA</span>
-            <div
+            <img
+              src={IMG.founder}
+              alt={`Portrait of ${SITE.founderName}`}
               className="founder__img"
-              role="img"
-              aria-label={`Portrait of ${SITE.founderName}`}
-              style={{ backgroundImage: `url(${IMG.founder})` }}
+              loading="lazy"
             />
           </div>
         </Reveal>
