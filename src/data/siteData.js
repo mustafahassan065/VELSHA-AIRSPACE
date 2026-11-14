@@ -19,7 +19,7 @@ export const SITE = {
 };
 
 export const IMG = {
-  hero: "/images/hero.jpg",
+  hero: "/images/hero.mp4",
   academy: "/images/academy.jpg",
   aircraft: "/images/aircraft.jpg",
   founder: "/images/founder.jpeg",
