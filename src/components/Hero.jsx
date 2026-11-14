@@ -1,12 +1,11 @@
 import { Link } from "react-router-dom";
-import { IMG } from "./siteData"; // path apne folder structure ke hisaab se adjust karein
 
 const HEADLINE = "Engineering the Future of Sustainable Flight.";
+const HERO_VIDEO = "/images/hero.mp4"; // public/ folder se direct
 
 export default function Hero() {
   return (
     <section className="hero" aria-label="Introduction">
-      {/* Video background */}
       <video
         className="hero__video"
         autoPlay
@@ -15,12 +14,11 @@ export default function Hero() {
         playsInline
         preload="metadata"
         aria-hidden="true"
-        poster="/images/hero-poster.jpg" // optional: video load hone tak image
+        poster="/images/hero-poster.jpg"
       >
-        <source src={IMG.hero} type="video/mp4" />
+        <source src={HERO_VIDEO} type="video/mp4" />
       </video>
 
-      {/* Dark overlay for text readability */}
       <div className="hero__overlay" aria-hidden="true" />
 
       <div className="hero__content">
