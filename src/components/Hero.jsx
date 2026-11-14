@@ -1,12 +1,28 @@
 import { Link } from "react-router-dom";
+import { IMG } from "../siteData"; // path apne folder structure ke hisaab se adjust karein
 
-// Change this line if the client prefers the screenshot headline:
-// "Advancing flight. Protecting our planet."
 const HEADLINE = "Engineering the Future of Sustainable Flight.";
 
 export default function Hero() {
   return (
     <section className="hero" aria-label="Introduction">
+      {/* Video background */}
+      <video
+        className="hero__video"
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="metadata"
+        aria-hidden="true"
+        poster="/images/hero-poster.jpg" // optional: video load hone tak image
+      >
+        <source src={IMG.hero} type="video/mp4" />
+      </video>
+
+      {/* Dark overlay for text readability */}
+      <div className="hero__overlay" aria-hidden="true" />
+
       <div className="hero__content">
         <p className="hero__eyebrow">VELSHA AIRSPACE</p>
         <h1>{HEADLINE}</h1>
