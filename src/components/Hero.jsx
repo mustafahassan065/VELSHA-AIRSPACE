@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { IMG } from "../siteData"; // path apne folder structure ke hisaab se adjust karein
+import { IMG } from "./siteData"; // path apne folder structure ke hisaab se adjust karein
 
 const HEADLINE = "Engineering the Future of Sustainable Flight.";
 
